@@ -33,8 +33,8 @@ BASE_URL=http://localhost:5000
 PORT=5000
 
 4.Run the server:
-npm start
-Server will start at http://localhost:5000
+node index.js
+Server will start at http://localhost:3000
 
 📌 API Endpoints
 1️⃣ Shorten a URL
@@ -54,7 +54,17 @@ json
   "shortUrl": "http://localhost:5000/abc123"
 }
 2️⃣ Redirect to Original URL
-GET /:shortCode
-Example:
-http://localhost:5000/abc123
-Redirects → https://www.example.com/very/long/url
+
+GET http://localhost:3000/abc123
+Redirects to Google.
+
+🖥️ Frontend Usage
+
+Open http://localhost:3000/ in your browser.
+
+Enter a long URL in the form and click Shorten.
+
+You’ll get a clickable short link. 
+👩‍💻 Author
+
+Developed by "Ayesha Saeed"
