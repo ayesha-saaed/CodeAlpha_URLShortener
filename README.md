@@ -21,9 +21,8 @@ This project allows users to shorten long URLs into compact, shareable links and
 
 1. Clone the repository:
    ```bash(terminal)
-   git clone https://github.com/ayesha-saaed/CodeAlpha_URLShortener.git
-   cd CodeAlpha_URLShortener
-   
+   git clone https://github.com/your-username/CodeAlpha_URLShortener.git
+  
  2. Install dependencies:
    npm install
 
